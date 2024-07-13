@@ -57,3 +57,16 @@ form {
   box-shadow: none;
   top: 6px; 
 } 
+
+.git-purr-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.git-purr-gallery img {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
